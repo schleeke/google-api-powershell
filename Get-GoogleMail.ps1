@@ -24,9 +24,9 @@
 #>
 [CmdletBinding()]
 PARAM (
-    [Parameter(Position = 0)]
+    [Parameter(Position = 0, Mandatory = $true)]
     [ValidateNotNullOrEmpty()]
-    [string] $EmailAddress = 'schlee.kevin@gmail.com',
+    [string] $EmailAddress,
 
     [Parameter(Position = 1)]
     [ValidateNotNullOrEmpty()]
