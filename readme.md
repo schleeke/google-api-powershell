@@ -12,7 +12,7 @@ Each script relies on three values for authorization:
 * GoogleApiClientSecret
 * GoogleApiKey (not needed for google mail API)
 
-These values must be provided the first time you use a script for a certain API. These values will then be stored in your profile directory beneath %USERPROFILE/.gapi/<google-api-type>.json. Keep them save and protected for there are no restrictions concerning the activities against the API.  
+These values must be provided the first time you use a script for a certain API. These values will then be stored in your profile directory beneath %USERPROFILE/.gapi/\<google-api-type>.json. Keep them save and protected for there are no restrictions concerning the activities against the API.  
 
 Once provided, a browser windows will popup and ask you for permission to allow the script/set of *GoogleApiClientId* and *GoogleApiClientSecret* to perform the actions to the API(s). The popup will only occur once or if you delete the JSON file with the credentials beneath %USERPROFILE/.gapi/.
 
