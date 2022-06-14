@@ -1,4 +1,22 @@
 <#
+.SYNOPSIS
+  Returns the files that are stored on the google drive.
+.DESCRIPTION
+  Returns a list of information on files that are stored on the google drive.
+  Offers the option to download them (uses an older version of the gdrive API
+  and my not work in the future).
+.PARAMETER GoogleApiClientId
+  The google web API client id as retrieved from the google developer page.
+.PARAMETER GoogleApiClientSecret
+  The secret token for the web API as retrieved from the google developer page.
+.PARAMETER GoogleApiKey
+  The API key for as set/retrieved from the google developer page.
+.PARAMETER FileName
+  Shows only files that contains the given string.
+.PARAMETER Download
+  Downloads the file(s) if the switch is set.
+.LINK
+  https://github.com/schleeke/google-api-powershell/blob/main/readme.md
 #>
 [CmdletBinding()]
 PARAM (

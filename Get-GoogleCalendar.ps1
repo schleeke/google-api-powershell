@@ -17,6 +17,8 @@
 .PARAMETER Today
   Only today's events are shown.
   Can only be used with the -CalendarName parameter.
+.LINK
+  https://github.com/schleeke/google-api-powershell/blob/main/readme.md
 #>
 [CmdletBinding(DefaultParameterSetName = 'ByDefault')]
 PARAM (

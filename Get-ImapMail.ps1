@@ -1,4 +1,12 @@
 <#
+.SYNOPSIS
+  Returns mails from an IMAP server.
+.PARAMETER ImapServerName
+  The IMAP server.
+  The server will be extracted/guessed from/by the email address/username if empty.
+.PARAMETER ImapServerPort
+  The TCP port that the IMAP server uses.
+  The port often defines the type of authentication/authorization.
 #>
 [CmdletBinding()]
 PARAM (
